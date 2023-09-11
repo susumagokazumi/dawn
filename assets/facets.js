@@ -120,7 +120,10 @@ class FacetFiltersForm extends HTMLElement {
     FacetFiltersForm.renderActiveFacets(parsedHTML);
     FacetFiltersForm.renderAdditionalElements(parsedHTML);
 
-    if (countsToRender) FacetFiltersForm.renderCounts(countsToRender, event.target.closest('.js-filter'));
+    if (countsToRender) {
+      FacetFiltersForm.renderCounts(countsToRender, event.target.closest('.js-filter'));
+      FacetFiltersForm.renderDrawerCounts(countsToRender, event.target.closest('.js-filter'));
+    }
   }
 
   static renderActiveFacets(html) {
@@ -168,6 +171,18 @@ class FacetFiltersForm extends HTMLElement {
 
     if (targetElementAccessibility && sourceElementAccessibility) {
       target.querySelector('.facets__summary').outerHTML = source.querySelector('.facets__summary').outerHTML;
+    }
+  }
+
+  static renderDrawerCounts(source, target) {
+    const targetElement = target.querySelector('.mobile-facets__list');
+    const sourceElement = source.querySelector('.mobile-facets__list');
+
+    if (sourceElement && targetElement) {
+      const currentActiveID = document.activeElement.id;
+
+      targetElement.outerHTML = sourceElement.outerHTML;
+      document.getElementById(`${currentActiveID}`).focus();
     }
   }
 
