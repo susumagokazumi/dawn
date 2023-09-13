@@ -89,7 +89,6 @@ class FacetFiltersForm extends HTMLElement {
   }
 
   static renderProductCount(html) {
-    debugger;
     const count = new DOMParser().parseFromString(html, 'text/html').getElementById('ProductCount').innerHTML;
     const container = document.getElementById('ProductCount');
     const containerDesktop = document.getElementById('ProductCountDesktop');
@@ -123,7 +122,7 @@ class FacetFiltersForm extends HTMLElement {
 
     if (countsToRender) {
       FacetFiltersForm.renderCounts(countsToRender, event.target.closest('.js-filter'));
-      FacetFiltersForm.renderDrawerCounts(countsToRender, event.target.closest('.js-filter'));
+      // FacetFiltersForm.renderDrawerCounts(countsToRender, event.target.closest('.js-filter'));
     }
   }
 
