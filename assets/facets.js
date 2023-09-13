@@ -180,9 +180,11 @@ class FacetFiltersForm extends HTMLElement {
 
     if (sourceElement && targetElement) {
       const currentActiveID = document.activeElement.id;
-
       targetElement.outerHTML = sourceElement.outerHTML;
-      document.getElementById(`${currentActiveID}`).focus();
+      const newElementToActivate = document.getElementById(`${currentActiveID}`);
+      if (newElementToActivate) {
+        newElementToActivate.focus();
+      }
     }
   }
 
