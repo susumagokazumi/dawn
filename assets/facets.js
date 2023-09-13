@@ -165,7 +165,10 @@ class FacetFiltersForm extends HTMLElement {
       if (sourceWrapElement && targetWrapElement) {
         const currentActiveID = document.activeElement.id;
         target.querySelector('.facets-wrap').outerHTML = source.querySelector('.facets-wrap').outerHTML;
-        document.getElementById(`${currentActiveID}`).focus();
+        const newElementToActivate = document.getElementById(`${currentActiveID}`);
+        if (newElementToActivate) {
+          newElementToActivate.focus();
+        }
       }
     }
 
