@@ -1,0 +1,68 @@
+<div class="parallax_bg" style="background: url({% if section.settings.bk_img %}{{ section.settings.bk_img | img_url: 'master' }}{% endif %}) ;">
+  <div class="parallax_contents">
+    <h3>{{ section.settings.title }}</h3>
+    <div>{{ section.settings.text | truncate: 100 }}</div>
+    <a
+      class="btn"
+      href="{{ section.settings.link }}"
+      role="button">{{ section.settings.txt_btn }}</a>
+  </div>
+</div>
+
+<style>
+  .parallax_bg {
+    position: relative !important;
+    background-position: center !important;
+
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    height: 400px;
+
+    color: #fff;
+    font-size: 5rem;
+
+    margin-top: 1rem;
+  }
+</style>
+{% schema %}
+  {
+    "name": "スクロール追従しない写真",
+    "settings": [
+
+      {
+        "type": "image_picker",
+        "id": "bk_img",
+        "label": "画像"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "タイトル",
+        "default": "タイトル"
+      },
+      {
+        "type": "html",
+        "id": "text",
+        "label": "説明文",
+        "default": "ここに説明文を挿入"
+      },
+      {
+        "type": "text",
+        "id": "txt_btn",
+        "label": "ボタンのテキスト",
+        "default": "More"
+      }, {
+        "id": "link",
+        "type": "url",
+        "label": "リンク先"
+      }
+
+    ],
+    "presets": [
+      {
+        "name": "パララックス",
+        "category": "おしゃれレイアウト"
+      }
+    ]
+  }
+{% endschema %}
