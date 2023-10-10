@@ -5,16 +5,35 @@
     "95361686-84ad-4194-a5d2-3afaf443a8bb": {
       "type": "announcement-bar",
       "blocks": {
+<<<<<<< HEAD
         "32bec72f-3dad-4993-9bab-b0c2a0cbabe9": {
           "type": "announcement",
           "settings": {
             "text": "Welcome to our store",
+=======
+        "sections--21037950599475__95361686-84ad-4194-a5d2-3afaf443a8bb-announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "text": "DICON POPUP商品購入代行受付中！！",
+            "link": ""
+          }
+        },
+        "6186636e-fc0f-457c-8f91-b121f40e8c5f": {
+          "type": "announcement",
+          "settings": {
+            "text": "少年探偵キムジウン毎週水曜配信中!!",
+>>>>>>> 8ba12c3700fd435983faf929460d82d051b63d24
             "link": ""
           }
         }
       },
       "block_order": [
+<<<<<<< HEAD
         "32bec72f-3dad-4993-9bab-b0c2a0cbabe9"
+=======
+        "sections--21037950599475__95361686-84ad-4194-a5d2-3afaf443a8bb-announcement-1",
+        "6186636e-fc0f-457c-8f91-b121f40e8c5f"
+>>>>>>> 8ba12c3700fd435983faf929460d82d051b63d24
       ],
       "custom_css": [
 
@@ -38,11 +57,19 @@
         "logo_position": "top-left",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
+<<<<<<< HEAD
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": false,
         "color_scheme": "background-1",
         "menu_color_scheme": "background-1",
         "enable_country_selector": false,
+=======
+        "sticky_header_type": "always",
+        "show_line_separator": false,
+        "color_scheme": "background-1",
+        "menu_color_scheme": "background-1",
+        "enable_country_selector": true,
+>>>>>>> 8ba12c3700fd435983faf929460d82d051b63d24
         "enable_language_selector": true,
         "mobile_logo_position": "center",
         "margin_bottom": 0,

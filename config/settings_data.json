@@ -116,7 +116,11 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
+<<<<<<< HEAD
     "checkout_body_background_color": "#ffffff",
+=======
+    "checkout_body_background_color": "#ffe0e0",
+>>>>>>> 8ba12c3700fd435983faf929460d82d051b63d24
     "checkout_sidebar_background_color": "#242424",
     "checkout_heading_font": "Abel",
     "checkout_body_font": "Helvetica Neue",
@@ -142,7 +146,11 @@
     "color_schemes": {
       "background-1": {
         "settings": {
+<<<<<<< HEAD
           "background": "#ffffff",
+=======
+          "background": "#ffe0e0",
+>>>>>>> 8ba12c3700fd435983faf929460d82d051b63d24
           "background_gradient": "",
           "text": "#020912",
           "button": "#020912",
@@ -175,7 +183,11 @@
       },
       "accent-1": {
         "settings": {
+<<<<<<< HEAD
           "background": "#ffffff",
+=======
+          "background": "#000000",
+>>>>>>> 8ba12c3700fd435983faf929460d82d051b63d24
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffd9d9",

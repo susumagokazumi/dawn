@@ -6,7 +6,11 @@
         "1973bfe7-fc16-4fa8-8983-c9d22d63b5e8": {
           "type": "heading",
           "settings": {
+<<<<<<< HEAD
             "heading": "joliesse",
+=======
+            "heading": "D1, Be the one. ZEROBASEONE",
+>>>>>>> 8ba12c3700fd435983faf929460d82d051b63d24
             "heading_size": "h2"
           }
         },
@@ -25,6 +29,7 @@
       ],
       "custom_css": [
 
+<<<<<<< HEAD
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/6d3a21d96c18b5b6b295b010c42e9d93.jpg",
@@ -39,6 +44,51 @@
         "mobile_content_alignment": "center",
         "padding_top": 12,
         "padding_bottom": 32
+=======
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/6d3a21d96c18b5b6b295b010c42e9d93.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 12,
+        "padding_bottom": 32
+      }
+    },
+    "23db39ad-445c-42d5-b865-8e01ad2746fa": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21037950107955__23db39ad-445c-42d5-b865-8e01ad2746fa-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "DICON POPUP",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--21037950107955__23db39ad-445c-42d5-b865-8e01ad2746fa-heading-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/50c6456f6fe15ab4950d64b6fa42de28.jpg",
+        "height": "small",
+        "desktop_image_width": "large",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 0
+>>>>>>> 8ba12c3700fd435983faf929460d82d051b63d24
       }
     },
     "featured_collection": {
@@ -72,6 +122,10 @@
   },
   "order": [
     "image-with-text",
+<<<<<<< HEAD
+=======
+    "23db39ad-445c-42d5-b865-8e01ad2746fa",
+>>>>>>> 8ba12c3700fd435983faf929460d82d051b63d24
     "featured_collection"
   ]
 }
